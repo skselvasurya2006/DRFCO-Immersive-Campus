@@ -1,0 +1,27 @@
+// EDIT SITE COPY, service details, offices and tour captions here.
+export const site = {
+  brand: 'DRFCO HOLDING',
+  legalName: 'Desert Roofing & Flooring L.L.C',
+  tagline: 'Built to endure. Designed to perform.',
+  claim: 'UAE LEADING COMPANY',
+  standards: 'Our licenses are certified by ISO and ELACI',
+  about: 'Since 1978, DRFCO has helped shape the built environment across the UAE with dependable waterproofing, flooring, facilities management and specialist construction solutions.',
+  services: [
+    { id:'hq', name:'DRFCO HOLDING', short:'Welcome to DRFCO HOLDING', description:'Desert Roofing is a leading facilities management and waterproofing expert in the UAE, with a 47-year reputation as a trusted name in waterproofing, flooring, and facilities management.', accent:'#e7ad62', icon:'⌂', offerings:['Established 1978','Thousands of completed projects','Commercial, industrial and residential clients'], position:[0,0,8], size:[4.8,4.2,4.2], shape:'hq', caption:'Start at the heart of DRFCO — a legacy built on trust.' },
+    { id:'waterproofing', name:'Waterproofing', short:'Engineered protection. Lasting confidence.', description:"Expert waterproofing solutions built to endure the UAE's toughest climates.", accent:'#55d8d0', icon:'◈', offerings:['Substructural Waterproofing','Roof and wet-area systems','Commercial, industrial and residential projects'], position:[-10,0,-1], size:[3.4,5.2,3.5], shape:'tower', caption:'Discover protection designed for the toughest environments.' },
+    { id:'flooring', name:'Flooring Solutions', short:'Crafting enchantment with flooring.', description:'Desert Roofing & Flooring L.L.C has grown to become one of the leading companies in the UAE. From timeless elegance to modern charisma, our flooring balances beauty and functionality.', accent:'#dba96a', icon:'▦', offerings:['Commercial and industrial flooring','Decorative finishes','Durable, functional surfaces'], position:[-5,0,-10], size:[5.2,3.4,4], shape:'wide', caption:'Where durability meets design and everyday performance.' },
+    { id:'alpha', name:'Alpha Doors', short:'Security, access and movement.', description:'Alpha Security & Allied Systems — Doors & Security Products division — brings together dependable access, loading-bay and security solutions.', accent:'#ff835e', icon:'▤', offerings:['Rolling Shutters & Sectional Overhead Doors','High Speed, Garage, Fire Rated & Mega Doors','Parking Barriers, Dock Levelers & Dock Shelters','Scissor Lifts, Lifting Equipment & Bollards','Hollow Metal, Prison, Sliding Folding & Fire Curtains','PVC Curtains, Shop Front Shutters & Access Control'], position:[5,0,-10], size:[4.5,3.6,4], shape:'industrial', caption:'Explore a complete portfolio of doors, access and loading systems.' },
+    { id:'facilities', name:'Facilities Management', short:'Smart spaces. Better operations.', description:"Smart facilities management solutions tailored for efficiency and the UAE's unique needs.", accent:'#a7b8ff', icon:'⌘', offerings:['Integrated facility services','Preventive maintenance','Operational efficiency'], position:[10,0,-1], size:[3.8,4.5,3.8], shape:'glass', caption:'Keeping buildings performing at their best, day after day.' },
+    { id:'interior', name:'Interior Expertise', short:'Spaces with purpose and character.', description:'Elegant interior solutions that balance style, function, and cultural essence through considered interior design and fit-out services.', accent:'#e8c8a1', icon:'✧', offerings:['Interior design','Fit-out services','Material and finish coordination'], position:[10,0,9], size:[4.4,3.6,3.5], shape:'wide', caption:'Thoughtful interiors shaped around people and purpose.' },
+    { id:'manufacturing', name:'Chemical Manufacturing', short:'Precision in every formulation.', description:'Precision-made construction materials, crafted with advanced manufacturing expertise in state-of-the-art facilities.', accent:'#a3d6a0', icon:'⚗', offerings:['Construction chemical solutions','Advanced manufacturing','Consistent quality processes'], position:[-8,0,9], size:[4.8,4.3,4], shape:'industrial', caption:'Meet the manufacturing capability behind dependable materials.' }
+  ],
+  counters:[['7,720','Completed Projects'],['542','Trained Experts'],['4','Branches'],['47','Years of Trust']],
+  partners:['Sika','SOPREMA','Maris','PLYDEX','Gemite','DWI','INDESEAL','PLASTISELL','BPA','NARCISI','Index','Mattex','FOSROC','Henkel','HUNTSMAN'],
+  offices:[
+    {name:'Dubai HQ',address:'Ras Al Khor – Al Aweer Industrial Area, Near Al Abbar Glass Factory, Dubai.',phone:'+971 04 333 1003'},
+    {name:'Abu Dhabi',address:'Office 532, 5th Floor, Maxhome Properties, Madinat Zayed Office Tower, Muroor Road.',phone:'+971 04 333 1003'},
+    {name:'Sharjah',address:'University Road, Al Muweilah Commercial Building.',phone:'+971 04 333 1009'}
+  ],
+  alphaProducts:['Rolling Shutters','Sectional Overhead Doors','High Speed Doors','Parking Barriers','Dock Levelers & Shelters','Scissor Lifts & Lifting Equipment','Fire Rated Rolling Shutters','Hollow Metal Doors','Garage & Roller Doors','PVC & Fire Curtains','Sliding Folding Doors','Shop Front Shutters','Bollards & Mega Doors','Prison Doors','Access Control Systems']
+};
+export const tourOrder = ['hq','waterproofing','flooring','alpha','facilities','interior','manufacturing'];
